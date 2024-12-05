@@ -1,0 +1,8 @@
+- repo: local
+  hooks:
+  - id: go-sec
+    name: go security check
+    entry: gosec ./...
+    language: system
+    pass_filenames: false
+    files: .*\.go
