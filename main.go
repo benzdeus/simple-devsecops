@@ -1,6 +1,6 @@
 package main
 
-import "log"
+import "fmt"
 
 func main() {
 	// tr := &http.Transport{
@@ -15,9 +15,7 @@ func main() {
 	// 	fmt.Println(err)
 	// }
 
-	// password := "f62e5bcda4fae4f82370da0c6f20697b8f8447ef"
+	password := "f62e5bcda4fae4f82370da0c6f20697b8f8447ef"
 
-	// fmt.Println("Doing something with: ", password)
-
-	log.Println("Try Fixed")
+	fmt.Println("Doing something with: ", password)
 }
